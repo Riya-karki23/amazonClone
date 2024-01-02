@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a:link
+        {
+           color:green;
+        }
+
+        a:hover
+        {
+           color:palevioletred;
+        }
+        a:active{
+            color:blueviolet;
+            border:4px solid black;
+            padding:4px;
+        }
+        ::selection/***************when we select something in paragraph or any text******************/
+        {
+            color:rgb(255, 255, 255);
+            background-color: rgb(134, 128, 128);
+        }
+
+        .p{
+            border:2px solid black;
+            height:100px;
+            width: 100px;
+            resize:both;
+            overflow: auto;
+        }
+
+        .p1
+        {
+            width:100px;
+            height: 70px;
+            border:2px solid grey;
+            outline:3px solid orange;
+            outline-offset: 4px;
+        }
+    </style>
+</head>
+<body>
+    <a href="#">Learn More</a>
+    <!---------ul>li{list-$}*10---------------->
+    <ul>
+        <li>box-1</li>
+        <li>box-2</li>
+        <li>box-3</li>
+        <li>box-4</li>
+        <li>box-5</li>
+        <li>box-6</li>
+        <li>box-7</li>
+        <li>box-8</li>
+        <li>box-9</li>
+        <li>box-10</li>
+    </ul>
+    <div class="p">
+ <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi alias adipisci quaerat suscipit modi maxime aliquam nam, sequi eius fuga neque possimus quo fugiat dignissimos iure quibusdam laborum? Ipsa veritatis dolore veniam dolores animi repellendus dolorem sequi quam? Architecto, assumenda!</p>
+</div>
+ <textarea name="textArea" cols="5" rows="5">hello this is Riya Karki</textarea>
+<p class="p1">hello learn css with me</p>
+</body>
+</html>
